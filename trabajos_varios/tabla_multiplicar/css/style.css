@@ -79,6 +79,6 @@ input{
   border-radius: 35px;
 }
 input::placeholder {
-  color: rgb(255, 250, 241) ; /* Cambia el color del placeholder a rojo */
+  color: orange ; /* Cambia el color del placeholder a rojo */
   opacity: 1; /* Asegura que la opacidad del color se mantenga completa */
 }

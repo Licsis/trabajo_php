@@ -1,0 +1,28 @@
+a{
+    color: #0b1278;
+}
+
+a:hover{
+    color:rgb(255, 157, 0);
+}
+
+img{
+    margin: 5px auto;
+    width:20%;
+    height:auto;
+}
+
+.separar{
+    display: flex;
+    justify-content: space-around;
+}
+
+fieldset{
+    background: linear-gradient(to top, #3684d1, #ffffff);
+}
+
+legend{
+    padding: 1%;
+    background-color: #20e812;
+    border-radius: 20px;
+}
