@@ -13,9 +13,9 @@
 </head>
 <body>
    <form action="index.php" method="post">
-    <input type="number" name="edad" placeholder="ingresar edad">
-    <input type="submit" value="verificar">
-    <input type="number" name="altura" placeholder="ingresar altura"
+        <input type="number" name="edad" placeholder="ingresar edad">
+        <input type="submit" value="verificar">
+        <input type="number" name="altura" placeholder="ingresar altura">
    </form>
    <?php
    if (isset($_POST)) {
@@ -28,13 +28,11 @@
     }
     if (isset($_POST)) {
         $name = $_POST ['altura'];
-        if ($name >= 1,70) {
+        if ($name >= 1.70) {
             echo 'podes ingresar';
         }else {
-            echo'no podes ingresar'; # code...
+            echo'no podes ingresar';
         }
-
-        # code...
     }
    
    ?> 

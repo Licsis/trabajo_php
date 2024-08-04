@@ -1,0 +1,62 @@
+header{
+    text-align: center;
+}
+form{
+    max-width: 35%;
+    margin-top: 10%;
+    transform: translateX(100%);
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+form fieldset{
+    border-radius: 25px;
+}
+/* Estilos generales para todos los inputs */
+input {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* al hacer focus cambia de color el fondo del input de texto */
+input[type="text"]:focus {
+    background-color: #007BFF;
+    color: #ffffff;
+}
+
+/* al hacer focus cambia de color el fondo del input de contraseña */
+input[type="password"]:focus {
+    background-color: #007BFF;
+    color: #ffffff;
+}
+
+/* Estilos específicos para el input de texto */
+input[type="text"]:hover {
+    border-color: #007BFF;
+}
+
+/* Estilos específicos para el input de contraseña */
+input[type="password"]:hover {
+    border-color: #007BFF;
+}
+
+/* Estilos específicos para el input de submit */
+input[type="submit"] {
+    width: 25%;
+    margin-top: 40px;
+    transform: translateX(150%);
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* Estilos cuando los inputs tienen el foco */
+input:focus {
+    outline: none;
+    border-width: 2px;
+}
