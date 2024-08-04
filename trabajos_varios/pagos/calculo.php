@@ -44,7 +44,7 @@ if (!empty($_POST)) {
     }
     // Si el usuario no ingresó horas, muestra un mensaje de error y redirecciona después de 5 segundos
     elseif ($horas == "") {
-        $tiempoRedireccion = 6; // Tiempo en segundos antes de redireccionar
+        $tiempoRedireccion = 11; // Tiempo en segundos antes de redireccionar
         echo"<h3>En <span id='countdown'>$tiempoRedireccion</span> segundos será redireccionado</h3> ";
         echo "<h1>No ingresó un valor numérico.</h1>";
         ?>
