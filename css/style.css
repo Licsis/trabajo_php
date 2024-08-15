@@ -1,6 +1,12 @@
 header{
     text-align: center;
 }
+body{
+    background-color: #007BFF;
+}
+h1, h2, h3, h4{
+    color: #ffffff;
+}
 form{
     max-width: 35%;
     margin-top: 10%;

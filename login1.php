@@ -6,11 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        body{
-            background-color: #007BFF;
-        }
-    </style>
+  
     <title>Login Principal</title>
 </head>
 <body>
@@ -24,14 +20,16 @@
             <input type="password" name="pass" placeholder="Contraseña">
             <input type="submit" value="Acceder">
         </fieldset>
+    
         <hr>
-        <fieldset>
-            <legend>Crear Usuario</legend>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-            <button> Registrarme </button>
-         </a> 
-        </fieldset>
-         
+        <form action="#" method="post"></form>
+            <fieldset>
+                <legend>Crear Usuario</legend>
+                <a href="register.php" target="_blank" rel="noopener noreferrer">
+                <button> Registrarme </button>
+            </a> 
+            </fieldset>
+        </form>
     </form>
 </body>
 </html>
