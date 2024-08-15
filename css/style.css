@@ -7,15 +7,38 @@ body{
 h1, h2, h3, h4{
     color: #ffffff;
 }
+hr{
+    color: #ffffff;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 3px;
+}
+button{
+    background-color: #007BFF;
+    padding: 2%;
+    border-radius: 5px;
+    transform: translateY(15%);
+    text-decoration: none;
+}
+button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
 form{
     max-width: 35%;
     margin-top: 10%;
-    transform: translateX(100%);
     background-color: #ffffff;
     border-radius: 25px;
+    border: 2px solid #ffffff;
+    color: #007BFF;
+    padding: 2%;
+    transform: translateX(80%) translateY(-25%);
 }
 form fieldset{
     border-radius: 25px;
+    padding: 3%;
 }
 /* Estilos generales para todos los inputs */
 input {

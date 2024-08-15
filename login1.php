@@ -22,12 +22,12 @@
         </fieldset>
     
         <hr>
-        <form action="#" method="post"></form>
+        <form action="#" method="post">
             <fieldset>
                 <legend>Crear Usuario</legend>
-                <a href="register.php" target="_blank" rel="noopener noreferrer">
-                <button> Registrarme </button>
-            </a> 
+                <button ><a id="registrarme" href="register.php" target="_blank" rel="noopener noreferrer">
+                 Registrarme 
+            </a> </button>
             </fieldset>
         </form>
     </form>
