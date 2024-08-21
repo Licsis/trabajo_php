@@ -1,4 +1,5 @@
 <?php 
+    include ("conexion.php");
     session_unset();
     session_destroy();
 ?>

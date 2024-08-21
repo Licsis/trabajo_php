@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+</head>
+<body>
+    <form action="calculo/divisa.php" method="post">
+        <fieldset>
+            <legend>Calculo Divisas</legend>
+            <input type="number" step="0.01" name="valor1" placeholder="Monto: 1200.35"><br><br>
+            <select name="divisa" id="">
+                <option value="0" selected>..Elegir Divisa..</option>
+                <option value="1">Dolar</option>
+                <option value="2">Real</option>
+                <option value="3">Euro</option>
+                <option value="4">Libras Esterlinas</option>
+            </select><br><br>
+        </fieldset>
+        <input type="submit" value="Calcular Divisa">
+
+    </form>
+</body>
+</html>
