@@ -1,91 +1,170 @@
-header{
-    text-align: center;
-}
 body{
     background-color: #007BFF;
 }
-h1, h2, h3, h4{
-    color: #ffffff;
-}
-hr{
-    color: #ffffff;
-    background-color: #ffffff;
-    width: 100%;
-    padding: 3px;
-}
-button{
-    background-color: #007BFF;
-    padding: 2%;
-    border-radius: 5px;
-    transform: translateY(15%);
-    text-decoration: none;
-}
-button a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
-}
-form{
-    max-width: 35%;
-    margin-top: 10%;
-    background-color: #ffffff;
-    border-radius: 25px;
-    border: 2px solid #ffffff;
-    color: #007BFF;
-    padding: 2%;
-    transform: translateX(80%) translateY(-25%);
-}
-form fieldset{
-    border-radius: 25px;
-    padding: 3%;
-}
-/* Estilos generales para todos los inputs */
-input {
-    display: block;
-    width: 95%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
+@media screen and (min-width: 971px) and (max-width: 1920px){
+    header{
+        text-align: center;
+    }
+    
+    h1, h2, h3, h4{
+        color: #ffffff;
+    }
+    hr{
+        color: #ffffff;
+        background-color: #ffffff;
+        width: 100%;
+        padding: 3px;
+    }
+    button{
+        background-color: #007BFF;
+        padding: 2%;
+        border-radius: 5px;
+        transform: translateY(15%);
+        text-decoration: none;
+    }
+    button a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 16px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    form{
+        max-width: 35%;
+        margin-top: 10%;
+        background-color: #ffffff;
+        border-radius: 25px;
+        border: 2px solid #ffffff;
+        color: #007BFF;
+        padding: 2%;
+        transform: translateX(80%) translateY(-25%);
+    }
+    form fieldset{
+        border-radius: 25px;
+        padding: 3%;
+    }
+    
+    
+    /* Estilos generales para todos los inputs */
+    input {
+        display: block;
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    /* al hacer focus cambia de color el fondo del input de texto */
+    input[type="text"]:focus {
+        background-color: #007BFF;
+        color: #ffffff;
+    }
+    
+    /* al hacer focus cambia de color el fondo del input de contraseña */
+    input[type="password"]:focus {
+        background-color: #007BFF;
+        color: #ffffff;
+    }
+    
+    /* Estilos específicos para el input de texto */
+    input[type="text"]:hover {
+        border-color: #007BFF;
+    }
+    
+    /* Estilos específicos para el input de contraseña */
+    input[type="password"]:hover {
+        border-color: #007BFF;
+    }
+    
+    
+    /* Estilos cuando los inputs tienen el foco */
+    input:focus {
+        outline: none;
+        border-width: 2px;
+    }
 }
 
-/* al hacer focus cambia de color el fondo del input de texto */
-input[type="text"]:focus {
-    background-color: #007BFF;
-    color: #ffffff;
-}
-
-/* al hacer focus cambia de color el fondo del input de contraseña */
-input[type="password"]:focus {
-    background-color: #007BFF;
-    color: #ffffff;
-}
-
-/* Estilos específicos para el input de texto */
-input[type="text"]:hover {
-    border-color: #007BFF;
-}
-
-/* Estilos específicos para el input de contraseña */
-input[type="password"]:hover {
-    border-color: #007BFF;
-}
-
-/* Estilos específicos para el input de submit */
-input[type="submit"] {
-    width: 25%;
-    margin-top: 40px;
-    transform: translateX(150%);
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-}
-/* Estilos cuando los inputs tienen el foco */
-input:focus {
-    outline: none;
-    border-width: 2px;
+@media screen and (min-width: 1920px) and (max-width: 2300px ){
+    header{
+        text-align: center;
+    }
+    
+    h1, h2, h3, h4{
+        color: #ffffff;
+    }
+    hr{
+        color: #ffffff;
+        background-color: #ffffff;
+        width: 100%;
+        padding: 3px;
+    }
+    button{
+        background-color: #007BFF;
+        padding: 2%;
+        border-radius: 5px;
+        transform: translateY(15%);
+        text-decoration: none;
+    }
+    button a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 16px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    form{
+        width: 35%;
+        margin-top: 10%;
+        background-color: #ffffff;
+        border-radius: 25px;
+        border: 2px solid #ffffff;
+        color: #007BFF;
+        padding: 2%;
+        transform: translateX(80%) translateY(-25%);
+    }
+    form fieldset{
+        border-radius: 25px;
+        padding: 3%;
+    }
+    
+    
+    /* Estilos generales para todos los inputs */
+    input {
+        display: block;
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    /* al hacer focus cambia de color el fondo del input de texto */
+    input[type="text"]:focus {
+        background-color: #007BFF;
+        color: #ffffff;
+    }
+    
+    /* al hacer focus cambia de color el fondo del input de contraseña */
+    input[type="password"]:focus {
+        background-color: #007BFF;
+        color: #ffffff;
+    }
+    
+    /* Estilos específicos para el input de texto */
+    input[type="text"]:hover {
+        border-color: #007BFF;
+    }
+    
+    /* Estilos específicos para el input de contraseña */
+    input[type="password"]:hover {
+        border-color: #007BFF;
+    }
+    
+    
+    /* Estilos cuando los inputs tienen el foco */
+    input:focus {
+        outline: none;
+        border-width: 2px;
+    }
 }

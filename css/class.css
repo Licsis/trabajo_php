@@ -1,0 +1,14 @@
+.field {
+    width: 50% !important;
+    background-color: #FF7F00;
+    border-radius: 10px !important;
+    border: solid 3px #000000 !important;
+    padding: 2% !important;
+    text-shadow: #FF7F00;
+}
+.field legend{
+    color: black !important;
+    background-color: #FF7F00;
+    border-radius: 5px 5px 10px 10px !important;
+    width: 50%;
+}

@@ -15,9 +15,13 @@
                 echo  "Su valor en Dolares con redondeo es: $".$dolar_redondeado;
             break;
         case 2:
-            echo "Debe selecionar una opción";
+            echo "Ingresó: $".$valor."<br><br>";
+            $dolar = $valor / 735.45;
+            $dolar_redondeado = round($dolar, 2);
+            echo  "Su valor en Dolares sin redondeo es: $". $dolar."<br><br>";
+            echo  "Su valor en Dolares con redondeo es: $".$dolar_redondeado;
             
-
+            
             break;
         case 3:
             echo "Debe selecionar una opción";
