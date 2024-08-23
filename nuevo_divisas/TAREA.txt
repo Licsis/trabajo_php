@@ -1,0 +1,6 @@
+Para el trabajo, deben corregir los estilos e incorporar un calculo de IMC
+para peso bajo, peso normal, Obesidad de tipo 1, 2 y 3.
+para ello deben crear un nuevo directorio dentro del directorio NUEVO_DIVISAS llamado IMC.
+las formulas están en los trabajos que hicimos en PSeINT o pueden buscarlos por internet.
+
+¡¡ÉXITOS!!
