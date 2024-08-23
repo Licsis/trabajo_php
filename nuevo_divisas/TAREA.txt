@@ -1,4 +1,15 @@
-Para el trabajo, deben corregir los estilos e incorporar un calculo de IMC
+Para el trabajo deben:
+1- corregir los estilos para que se adapten a los siguientes formatos de pantallas
+ 
+de 375px a 667px
+de 412px a  915px
+de 768px de 1024px
+de 1024px a  1366px
+de 1366px a 1920px
+de 1920px a 3840px
+
+
+2- incorporar un calculo de IMC
 para peso bajo, peso normal, Obesidad de tipo 1, 2 y 3.
 para ello deben crear un nuevo directorio dentro del directorio NUEVO_DIVISAS llamado IMC.
 las formulas están en los trabajos que hicimos en PSeINT o pueden buscarlos por internet.
