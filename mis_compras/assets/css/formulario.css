@@ -1,0 +1,70 @@
+#form-main{
+    position: relative !important;
+    margin-top: 15px;
+   
+}
+.icono{
+    width: 25px !important;
+    transition: filter 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.icono:hover {
+    filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(180deg); /* Cambia el color al pasar el cursor */
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+a:hover{
+    text-decoration: none;
+    color: #ce5454;
+    font-size: 20px;
+
+}
+table{
+    position:fixed;
+    top: 150%; /* Mueve la tabla un 10% desde la parte superior de la ventana */
+    
+}
+tbody{
+    border: 2px solid  #040450;
+}
+th{
+    border: 4px solid  #040450;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px;
+    width: 280px;
+    font-size: 20px;
+    font-weight: bold;
+}
+td{
+    border: 2px solid  #040450;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+}
+.formulario{
+    position: relative;
+    padding: 2%;
+    border-radius: 35px;
+    background-color: #ffffff;
+    width: 400px;
+    transform: translateX(120%) translateY(10px);
+}
+svg{
+    width: 25px;
+    height: auto;
+}
+body{
+    color: #000000;
+}
+select{
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+}

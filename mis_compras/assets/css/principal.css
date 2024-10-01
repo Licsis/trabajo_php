@@ -1,0 +1,144 @@
+body{
+    background-color: #1967f8;
+    color: #040450;
+}
+.cabecera{
+    position: relative !important;
+    color: #ffffff;
+    width: 80%;
+    height: 105px;
+    border-radius: 25px;
+    background-color: #040450;
+    z-index: 11;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* ÍCONO DE CABECERA */
+.cabecera svg{
+    width: 50px; /* Ajusta este valor al tamaño deseado */
+    height: auto; /* Mantiene la proporción del SVG */
+    transform: translateY(5%) translateX(25%); /* Muevo el ícono del cesto de compra */
+}
+svg{
+    fill:#74C0FC;
+}
+/* Formulario encolumnado */
+
+.flex-from{
+    display: flex;
+    flex-direction: column;
+}
+#btn-formulario{
+    margin-left: 60% !important;
+    margin-top: 10%;
+    background-color: #040450;
+    color: #fff;  
+    border-radius: 25px;
+}
+#btn-accesos {
+    /* AGRANDAN LOS BOTONES DEL PANEL DE NAVEGACIÓN
+    display: flex;
+    flex-direction:row;*/
+}
+.eliminados{
+    transform: translateX(-80px) translateY(30px);
+    color: #040450;
+    font-size: 25px;
+    border-radius: 35px;
+    background-color: #bf1515;
+    padding: 2%;
+}
+.acceso{
+    transform: translateX(90px) translateY(-10px);
+    color: #040450;
+    font-size: 25px;
+    border-radius: 35px;
+    background-color: #45a145;
+}
+/* Al presionar sobre este botón submit del formulario se ejecuta estas propiedades  */
+#btn-formulario:active{
+    margin-left: 60% !important;
+    margin-top: 10%;
+    background-color: #040450;
+    color: #fff;  
+    border-radius: 25px;
+    padding: 4%;
+
+}
+#btn-formulario:hover{
+    margin-left: 60% !important;
+    margin-top: 10%;
+    background-color: #4242d5;
+    color: #fff;  
+    border-radius: 25px;
+    padding: 4%;
+    cursor: pointer;
+}
+input{
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#home{
+    display: flex;
+    justify-content:flex-start;
+    justify-items:normal;
+    color: #ffffff;
+}
+
+#home h3{
+    transform: translateY(20%) translateX(25%); /* Muevo el texto Mis Compras */
+    padding:5px;
+
+    margin-top: 20px;
+}
+#home h3 a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 10px auto;
+    transform: translateY(50%) translateX(-80%);
+}
+.cabecera a button{
+    background-color: transparent;
+    
+    border: transparent;
+}
+.cabecera a #login{
+   width: 50px;
+   transform: translateY(50%) translateX(-80%); 
+}
+/*         -----------Cuerpo del sitio-----------           */
+.cuerpo{
+    z-index: 1;
+    position:relative;
+    width: 97%;
+    height: 25%;
+    background-color: #45a145;
+    padding: 20px; /* Espacio interno, ajusta según lo necesario */
+    transform: translateY(44%);
+    bottom: 10;
+}
+
+
+/*         -----------Pie del sitio-----------           */
+.pie{
+    z-index: 1;
+    position: relative;
+    transform: translateY(50px);
+    padding: 1px;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    background-color: #040450;
+    color: #ffffff;
+    text-align: center; /* Centrar el contenido */
+}
+
+
+
